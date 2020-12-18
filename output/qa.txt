@@ -1,0 +1,75 @@
+﻿AZAdverseEventIG : Validation Results
+=========================================
+
+err = 8, warn = 20, info = 0
+IG Publisher Version: 1.1.34 Out of date - current version is 1.1.54
+Generated Fri Dec 18 02:38:05 CST 2020. FHIR version 4.0.1 for example.fhir.az.ig#0.1.0 (canonical = https://semalexa.github.io/ig-az)
+
+ Build Errors : 9 / 1 / 0
+ D:\Work\Healthsamurai\az-fhir-profiles\ig-ae\ig\input\azig : 0 / 0 / 1
+ D:\Work\Healthsamurai\az-fhir-profiles\ig-ae\ig\input\structuredefinition\hl7.fhir.ae-Address : 0 / 1 / 1
+ D:\Work\Healthsamurai\az-fhir-profiles\ig-ae\ig\input\structuredefinition\hl7.fhir.ae-Address-region : 0 / 2 / 1
+ D:\Work\Healthsamurai\az-fhir-profiles\ig-ae\ig\input\structuredefinition\hl7.fhir.ae-HumanName : 0 / 1 / 1
+ D:\Work\Healthsamurai\az-fhir-profiles\ig-ae\ig\input\structuredefinition\hl7.fhir.ae-HumanName-salutation : 0 / 2 / 1
+ D:\Work\Healthsamurai\az-fhir-profiles\ig-ae\ig\input\structuredefinition\hl7.fhir.ae-Patient : 0 / 1 / 1
+ D:\Work\Healthsamurai\az-fhir-profiles\ig-ae\ig\input\structuredefinition\hl7.fhir.ae-Patient-ageGroup : 0 / 2 / 1
+ D:\Work\Healthsamurai\az-fhir-profiles\ig-ae\ig\input\structuredefinition\hl7.fhir.ae-Patient-consentToContactPatient : 0 / 2 / 1
+ D:\Work\Healthsamurai\az-fhir-profiles\ig-ae\ig\input\structuredefinition\hl7.fhir.ae-Patient-ethnicity : 0 / 2 / 1
+ D:\Work\Healthsamurai\az-fhir-profiles\ig-ae\ig\input\structuredefinition\hl7.fhir.ae-Patient-gender : 0 / 2 / 1
+ D:\Work\Healthsamurai\az-fhir-profiles\ig-ae\ig\input\structuredefinition\hl7.fhir.ae-Patient-patientAge : 0 / 2 / 1
+ D:\Work\Healthsamurai\az-fhir-profiles\ig-ae\ig\input\valueset\hl7.fhir.ae-detailed-ethnicity : 0 / 2 / 1
+</table>
+== n/a ==
+ERROR: ImplementationGuide.definition.parameter[23].value: Supressed messages file not found
+ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource StructureDefinition/hl7.fhir.ae-Address-region.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource StructureDefinition/hl7.fhir.ae-HumanName-salutation.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource StructureDefinition/hl7.fhir.ae-Patient-ageGroup.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource StructureDefinition/hl7.fhir.ae-Patient-consentToContactPatient.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource StructureDefinition/hl7.fhir.ae-Patient-ethnicity.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource StructureDefinition/hl7.fhir.ae-Patient-gender.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource StructureDefinition/hl7.fhir.ae-Patient-patientAge.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/hl7.fhir.ae-detailed-ethnicity.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: D:\Work\Healthsamurai\az-fhir-profiles\ig-ae\ig\output\searchform.html#/html/body/div/div/a/img/div/div/nav/div/div/ul/li/a at Line 64, column 21: The link 'history.html' for "History" cannot be resolved
+== D:\Work\Healthsamurai\az-fhir-profiles\ig-ae\ig\input\azig.xml ==
+INFORMATION: ImplementationGuide/example.fhir.az.ig: ImplementationGuide: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ImplementationGuide
+== D:\Work\Healthsamurai\az-fhir-profiles\ig-ae\ig\input\StructureDefinition\hl7.fhir.ae-Address.json ==
+INFORMATION: StructureDefinition/hl7.fhir.ae-Address: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+WARNING: StructureDefinition.where(url = 'https://semalexa.github.io/ig-az/StructureDefinition/hl7.fhir.ae-Address'): The Implementation Guide contains no examples for this data type profile
+== D:\Work\Healthsamurai\az-fhir-profiles\ig-ae\ig\input\StructureDefinition\hl7.fhir.ae-Address-region.json ==
+INFORMATION: StructureDefinition/hl7.fhir.ae-Address-region: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+WARNING: StructureDefinition/hl7.fhir.ae-Address-region: StructureDefinition: sdf-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
+WARNING: StructureDefinition.where(url = 'https://semalexa.github.io/ig-az/StructureDefinition/hl7.fhir.ae-Address-region'): The Implementation Guide contains no examples for this extension
+== D:\Work\Healthsamurai\az-fhir-profiles\ig-ae\ig\input\StructureDefinition\hl7.fhir.ae-HumanName.json ==
+INFORMATION: StructureDefinition/hl7.fhir.ae-HumanName: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+WARNING: StructureDefinition.where(url = 'https://semalexa.github.io/ig-az/StructureDefinition/hl7.fhir.ae-HumanName'): The Implementation Guide contains no examples for this data type profile
+== D:\Work\Healthsamurai\az-fhir-profiles\ig-ae\ig\input\StructureDefinition\hl7.fhir.ae-HumanName-salutation.json ==
+INFORMATION: StructureDefinition/hl7.fhir.ae-HumanName-salutation: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+WARNING: StructureDefinition/hl7.fhir.ae-HumanName-salutation: StructureDefinition: sdf-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
+WARNING: StructureDefinition.where(url = 'https://semalexa.github.io/ig-az/StructureDefinition/hl7.fhir.ae-HumanName-salutation'): The Implementation Guide contains no examples for this extension
+== D:\Work\Healthsamurai\az-fhir-profiles\ig-ae\ig\input\StructureDefinition\hl7.fhir.ae-Patient.json ==
+INFORMATION: StructureDefinition/hl7.fhir.ae-Patient: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+WARNING: StructureDefinition.where(url = 'https://semalexa.github.io/ig-az/StructureDefinition/hl7.fhir.ae-Patient'): The Implementation Guide contains no examples for this profile
+== D:\Work\Healthsamurai\az-fhir-profiles\ig-ae\ig\input\StructureDefinition\hl7.fhir.ae-Patient-ageGroup.json ==
+INFORMATION: StructureDefinition/hl7.fhir.ae-Patient-ageGroup: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+WARNING: StructureDefinition/hl7.fhir.ae-Patient-ageGroup: StructureDefinition: sdf-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
+WARNING: StructureDefinition.where(url = 'https://semalexa.github.io/ig-az/StructureDefinition/hl7.fhir.ae-Patient-ageGroup'): The Implementation Guide contains no examples for this extension
+== D:\Work\Healthsamurai\az-fhir-profiles\ig-ae\ig\input\StructureDefinition\hl7.fhir.ae-Patient-consentToContactPatient.json ==
+INFORMATION: StructureDefinition/hl7.fhir.ae-Patient-consentToContactPatient: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+WARNING: StructureDefinition/hl7.fhir.ae-Patient-consentToContactPatient: StructureDefinition: sdf-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
+WARNING: StructureDefinition.where(url = 'https://semalexa.github.io/ig-az/StructureDefinition/hl7.fhir.ae-Patient-consentToContactPatient'): The Implementation Guide contains no examples for this extension
+== D:\Work\Healthsamurai\az-fhir-profiles\ig-ae\ig\input\StructureDefinition\hl7.fhir.ae-Patient-ethnicity.json ==
+INFORMATION: StructureDefinition/hl7.fhir.ae-Patient-ethnicity: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+WARNING: StructureDefinition/hl7.fhir.ae-Patient-ethnicity: StructureDefinition: sdf-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
+WARNING: StructureDefinition.where(url = 'https://semalexa.github.io/ig-az/StructureDefinition/hl7.fhir.ae-Patient-ethnicity'): The Implementation Guide contains no examples for this extension
+== D:\Work\Healthsamurai\az-fhir-profiles\ig-ae\ig\input\StructureDefinition\hl7.fhir.ae-Patient-gender.json ==
+INFORMATION: StructureDefinition/hl7.fhir.ae-Patient-gender: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+WARNING: StructureDefinition/hl7.fhir.ae-Patient-gender: StructureDefinition: sdf-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
+WARNING: StructureDefinition.where(url = 'https://semalexa.github.io/ig-az/StructureDefinition/hl7.fhir.ae-Patient-gender'): The Implementation Guide contains no examples for this extension
+== D:\Work\Healthsamurai\az-fhir-profiles\ig-ae\ig\input\StructureDefinition\hl7.fhir.ae-Patient-patientAge.json ==
+INFORMATION: StructureDefinition/hl7.fhir.ae-Patient-patientAge: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+WARNING: StructureDefinition/hl7.fhir.ae-Patient-patientAge: StructureDefinition: sdf-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
+WARNING: StructureDefinition.where(url = 'https://semalexa.github.io/ig-az/StructureDefinition/hl7.fhir.ae-Patient-patientAge'): The Implementation Guide contains no examples for this extension
+== D:\Work\Healthsamurai\az-fhir-profiles\ig-ae\ig\input\ValueSet\hl7.fhir.ae-detailed-ethnicity.json ==
+INFORMATION: ValueSet/hl7.fhir.ae-detailed-ethnicity: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
+WARNING: ValueSet/hl7.fhir.ae-detailed-ethnicity: ValueSet.compose[0].include[0]: Unknown System specified, so Concepts and Filters can''t be checked
+WARNING: ValueSet.where(id = 'hl7.fhir.ae-detailed-ethnicity'): Error from server: Unable to provide support for code system urn:CodeSystem:detailed-ethnicity

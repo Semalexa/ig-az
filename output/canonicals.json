@@ -1,0 +1,86 @@
+[
+  {
+    "id": "example.fhir.az.ig",
+    "type": "ImplementationGuide",
+    "url": "https://semalexa.github.io/ig-az/ImplementationGuide/example.fhir.az.ig",
+    "version": "0.1.0",
+    "name": "AZAdverseEventIG"
+  },
+  {
+    "id": "hl7.fhir.ae-Address",
+    "type": "StructureDefinition",
+    "url": "https://semalexa.github.io/ig-az/StructureDefinition/hl7.fhir.ae-Address",
+    "version": "0.1.0",
+    "name": "AZAddressProfile"
+  },
+  {
+    "id": "hl7.fhir.ae-Address-region",
+    "type": "StructureDefinition",
+    "url": "https://semalexa.github.io/ig-az/StructureDefinition/hl7.fhir.ae-Address-region",
+    "version": "0.1.0",
+    "name": "region"
+  },
+  {
+    "id": "hl7.fhir.ae-HumanName",
+    "type": "StructureDefinition",
+    "url": "https://semalexa.github.io/ig-az/StructureDefinition/hl7.fhir.ae-HumanName",
+    "version": "0.1.0",
+    "name": "AZHumanNameProfile"
+  },
+  {
+    "id": "hl7.fhir.ae-HumanName-salutation",
+    "type": "StructureDefinition",
+    "url": "https://semalexa.github.io/ig-az/StructureDefinition/hl7.fhir.ae-HumanName-salutation",
+    "version": "0.1.0",
+    "name": "salutation"
+  },
+  {
+    "id": "hl7.fhir.ae-Patient",
+    "type": "StructureDefinition",
+    "url": "https://semalexa.github.io/ig-az/StructureDefinition/hl7.fhir.ae-Patient",
+    "version": "0.1.0",
+    "name": "AZPatientProfile"
+  },
+  {
+    "id": "hl7.fhir.ae-Patient-ageGroup",
+    "type": "StructureDefinition",
+    "url": "https://semalexa.github.io/ig-az/StructureDefinition/hl7.fhir.ae-Patient-ageGroup",
+    "version": "0.1.0",
+    "name": "ageGroup"
+  },
+  {
+    "id": "hl7.fhir.ae-Patient-consentToContactPatient",
+    "type": "StructureDefinition",
+    "url": "https://semalexa.github.io/ig-az/StructureDefinition/hl7.fhir.ae-Patient-consentToContactPatient",
+    "version": "0.1.0",
+    "name": "consentToContactPatient"
+  },
+  {
+    "id": "hl7.fhir.ae-Patient-ethnicity",
+    "type": "StructureDefinition",
+    "url": "https://semalexa.github.io/ig-az/StructureDefinition/hl7.fhir.ae-Patient-ethnicity",
+    "version": "0.1.0",
+    "name": "ethnicity"
+  },
+  {
+    "id": "hl7.fhir.ae-Patient-gender",
+    "type": "StructureDefinition",
+    "url": "https://semalexa.github.io/ig-az/StructureDefinition/hl7.fhir.ae-Patient-gender",
+    "version": "0.1.0",
+    "name": "gender"
+  },
+  {
+    "id": "hl7.fhir.ae-Patient-patientAge",
+    "type": "StructureDefinition",
+    "url": "https://semalexa.github.io/ig-az/StructureDefinition/hl7.fhir.ae-Patient-patientAge",
+    "version": "0.1.0",
+    "name": "patientAge"
+  },
+  {
+    "id": "hl7.fhir.ae-detailed-ethnicity",
+    "type": "ValueSet",
+    "url": "https://semalexa.github.io/ig-az/ValueSet/hl7.fhir.ae-detailed-ethnicity",
+    "version": "0.1.0",
+    "name": "DetailedEthnicity"
+  }
+]
