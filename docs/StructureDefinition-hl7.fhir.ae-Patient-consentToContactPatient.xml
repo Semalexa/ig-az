@@ -12,8 +12,10 @@
   <url value="https://semalexa.github.io/ig-az/StructureDefinition/hl7.fhir.ae-Patient-consentToContactPatient"/>
   <version value="0.1.0"/>
   <name value="consentToContactPatient"/>
+  <title value="AZ Patient Consent to Contact Extension"/>
   <status value="active"/>
-  <date value="2020-12-18T02:37:17-06:00"/>
+  <experimental value="false"/>
+  <date value="2020-12-18"/>
   <publisher value="AstraZeneca - Adverse Event Work Group"/>
   <contact>
     <telecom>

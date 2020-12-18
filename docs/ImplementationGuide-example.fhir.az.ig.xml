@@ -12,7 +12,7 @@
   <title value="AstraZeneca Adverse Event Implementation Guide"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2020-12-18T02:37:17-06:00"/>
+  <date value="2020-12-18T04:12:40-06:00"/>
   <publisher value="AstraZeneca - Adverse Event Work Group"/>
   <contact>
     <telecom>
@@ -214,7 +214,216 @@
       <reference>
         <reference value="StructureDefinition/hl7.fhir.ae-Address-region"/>
       </reference>
+      <name value="AZ Address Region Extension"/>
       <description value="hl7.fhir.ae-Address-region"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-hl7.fhir.ae-AdverseEvent.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/hl7.fhir.ae-AdverseEvent"/>
+      </reference>
+      <name value="AZ AdverseEvent Profile"/>
+      <description value="AZAdverseEvent"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-hl7.fhir.ae-AdverseEvent-AZEmployeeReporter.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/hl7.fhir.ae-AdverseEvent-AZEmployeeReporter"/>
+      </reference>
+      <name value="AZ Employee Reporter Extension"/>
+      <description value="hl7.fhir.ae-AdverseEvent-AZEmployeeReporter"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-hl7.fhir.ae-AdverseEvent-lateReason.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/hl7.fhir.ae-AdverseEvent-lateReason"/>
+      </reference>
+      <name value="AZ Late Reason Extension"/>
+      <description value="hl7.fhir.ae-AdverseEvent-lateReason"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-hl7.fhir.ae-AdverseEvent-localReference.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/hl7.fhir.ae-AdverseEvent-localReference"/>
+      </reference>
+      <name value="AZ Local Ref No Extension"/>
+      <description value="hl7.fhir.ae-AdverseEvent-localReference"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-hl7.fhir.ae-AdverseEvent-positiveDechallenge.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/hl7.fhir.ae-AdverseEvent-positiveDechallenge"/>
+      </reference>
+      <name value="AZ Positive Dechallenge Extension"/>
+      <description value="hl7.fhir.ae-AdverseEvent-positiveDechallenge"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-hl7.fhir.ae-AdverseEvent-positiveRechallenge.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/hl7.fhir.ae-AdverseEvent-positiveRechallenge"/>
+      </reference>
+      <name value="AZ Positive Rechallenge Extension"/>
+      <description value="hl7.fhir.ae-AdverseEvent-positiveRechallenge"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-hl7.fhir.ae-AdverseEvent-programNumber.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/hl7.fhir.ae-AdverseEvent-programNumber"/>
+      </reference>
+      <name value="AZ Program Number Extension"/>
+      <description value="hl7.fhir.ae-AdverseEvent-programNumber"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-hl7.fhir.ae-AdverseEvent-rechallenge.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/hl7.fhir.ae-AdverseEvent-rechallenge"/>
+      </reference>
+      <name value="AZ Rechallenge Extension"/>
+      <description value="hl7.fhir.ae-AdverseEvent-rechallenge"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-hl7.fhir.ae-AdverseEvent-reporterType.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/hl7.fhir.ae-AdverseEvent-reporterType"/>
+      </reference>
+      <name value="AZ Reporter Type Extension"/>
+      <description value="hl7.fhir.ae-AdverseEvent-reporterType"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-hl7.fhir.ae-AdverseEvent-sourceType.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/hl7.fhir.ae-AdverseEvent-sourceType"/>
+      </reference>
+      <name value="AZ Source Type Extension"/>
+      <description value="hl7.fhir.ae-AdverseEvent-sourceType"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-hl7.fhir.ae-AdverseEvent-surveyStatus.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/hl7.fhir.ae-AdverseEvent-surveyStatus"/>
+      </reference>
+      <name value="AZ Survey Status Extension"/>
+      <description value="hl7.fhir.ae-AdverseEvent-surveyStatus"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-hl7.fhir.ae-Condition.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/hl7.fhir.ae-Condition"/>
+      </reference>
+      <name value="AZ Condition Profile"/>
+      <description value="hl7.fhir.ae-Condition"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-hl7.fhir.ae-Condition-duration.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/hl7.fhir.ae-Condition-duration"/>
+      </reference>
+      <name value="AZ Condition Duration Extension"/>
+      <description value="hl7.fhir.ae-Condition-duration"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-hl7.fhir.ae-Condition-outcome.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/hl7.fhir.ae-Condition-outcome"/>
+      </reference>
+      <name value="AZ Condition Outcome Extension"/>
+      <description value="hl7.fhir.ae-Condition-outcome"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-hl7.fhir.ae-Condition-resultingCondition.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/hl7.fhir.ae-Condition-resultingCondition"/>
+      </reference>
+      <name value="AZ Resulting Condition Extension"/>
+      <description value="hl7.fhir.ae-Condition-resultingCondition"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-hl7.fhir.ae-Condition-seriousness.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/hl7.fhir.ae-Condition-seriousness"/>
+      </reference>
+      <name value="AZ Condition Seriousness Extension"/>
+      <description value="hl7.fhir.ae-Condition-seriousness"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -239,7 +448,151 @@
       <reference>
         <reference value="StructureDefinition/hl7.fhir.ae-HumanName-salutation"/>
       </reference>
+      <name value="AZ Name salutation Extension"/>
       <description value="hl7.fhir.ae-HumanName-salutation"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-hl7.fhir.ae-MedicationAdministration.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/hl7.fhir.ae-MedicationAdministration"/>
+      </reference>
+      <name value="AZ MedicationAdministration Profile"/>
+      <description value="hl7.fhir.ae-MedicationAdministration"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-hl7.fhir.ae-MedicationAdministration-actionTaken.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/hl7.fhir.ae-MedicationAdministration-actionTaken"/>
+      </reference>
+      <name value="AZ MedicationAdministration Action Taken Extension"/>
+      <description value="hl7.fhir.ae-MedicationAdministration-actionTaken"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-hl7.fhir.ae-MedicationAdministration-frequency.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/hl7.fhir.ae-MedicationAdministration-frequency"/>
+      </reference>
+      <name value="AZ MedicationAdministration Dosage Frequency Extension"/>
+      <description value="hl7.fhir.ae-MedicationAdministration-frequency"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-hl7.fhir.ae-MedicationAdministration-operatorDevice.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/hl7.fhir.ae-MedicationAdministration-operatorDevice"/>
+      </reference>
+      <name value="AZ MedicationAdministration Operator Device Extension"/>
+      <description value="hl7.fhir.ae-MedicationAdministration-operatorDevice"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-hl7.fhir.ae-MedicationAdministration-operatorDeviceOther.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/hl7.fhir.ae-MedicationAdministration-operatorDeviceOther"/>
+      </reference>
+      <name value="AZ MedicationAdministration Operator Device Other Extension"/>
+      <description value="hl7.fhir.ae-MedicationAdministration-operatorDeviceOther"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-hl7.fhir.ae-MedicationAdministration-productType.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/hl7.fhir.ae-MedicationAdministration-productType"/>
+      </reference>
+      <name value="AZ MedicationAdministration Product Type Extension"/>
+      <description value="hl7.fhir.ae-MedicationAdministration-productType"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-hl7.fhir.ae-MedicationAdministration-unit.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/hl7.fhir.ae-MedicationAdministration-unit"/>
+      </reference>
+      <name value="AZ MedicationAdministration Dosage Unit Extension"/>
+      <description value="hl7.fhir.ae-MedicationAdministration-unit"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-hl7.fhir.ae-Observation.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/hl7.fhir.ae-Observation"/>
+      </reference>
+      <name value="AZ Observation Profile"/>
+      <description value="hl7.fhir.ae-Observation"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-hl7.fhir.ae-Observation-pregnancyDueDate.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/hl7.fhir.ae-Observation-pregnancyDueDate"/>
+      </reference>
+      <name value="AZ Pregnancy Due Date Extension"/>
+      <description value="hl7.fhir.ae-Observation-pregnancyDueDate"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-hl7.fhir.ae-Observation-pregnancyFlag.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/hl7.fhir.ae-Observation-pregnancyFlag"/>
+      </reference>
+      <name value="AZ Pregnancy Extension"/>
+      <description value="hl7.fhir.ae-Observation-pregnancyFlag"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-hl7.fhir.ae-Observation-previousPregnanciesDetails.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/hl7.fhir.ae-Observation-previousPregnanciesDetails"/>
+      </reference>
+      <name value="AZ Details of previous pregnancies Extension"/>
+      <description value="hl7.fhir.ae-Observation-previousPregnanciesDetails"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -264,6 +617,7 @@
       <reference>
         <reference value="StructureDefinition/hl7.fhir.ae-Patient-ageGroup"/>
       </reference>
+      <name value="AZ Patient Age Group Extension"/>
       <description value="hl7.fhir.ae-Patient-ageGroup"/>
     </resource>
     <resource>
@@ -276,6 +630,7 @@
       <reference>
         <reference value="StructureDefinition/hl7.fhir.ae-Patient-consentToContactPatient"/>
       </reference>
+      <name value="AZ Patient Consent to Contact Extension"/>
       <description value="hl7.fhir.ae-Patient-consentToContactPatient"/>
     </resource>
     <resource>
@@ -288,6 +643,7 @@
       <reference>
         <reference value="StructureDefinition/hl7.fhir.ae-Patient-ethnicity"/>
       </reference>
+      <name value="AZ Patient Ethnicity Extension"/>
       <description value="hl7.fhir.ae-Patient-ethnicity"/>
     </resource>
     <resource>
@@ -300,6 +656,7 @@
       <reference>
         <reference value="StructureDefinition/hl7.fhir.ae-Patient-gender"/>
       </reference>
+      <name value="AZ Patient Gender Extension"/>
       <description value="hl7.fhir.ae-Patient-gender"/>
     </resource>
     <resource>
@@ -312,7 +669,84 @@
       <reference>
         <reference value="StructureDefinition/hl7.fhir.ae-Patient-patientAge"/>
       </reference>
+      <name value="AZ Patient Age Extension"/>
       <description value="hl7.fhir.ae-Patient-patientAge"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-hl7.fhir.ae-Practitioner.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/hl7.fhir.ae-Practitioner"/>
+      </reference>
+      <name value="AZ Practitioner Profile"/>
+      <description value="hl7.fhir.ae-Practitioner"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-hl7.fhir.ae-Practitioner-consentToContactPractitioner.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/hl7.fhir.ae-Practitioner-consentToContactPractitioner"/>
+      </reference>
+      <name value="AZ Practitioner Consent to Contact Extension"/>
+      <description value="hl7.fhir.ae-Practitioner-consentToContactPractitioner"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-hl7.fhir.ae-RelatedPerson.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/hl7.fhir.ae-RelatedPerson"/>
+      </reference>
+      <name value="AZ RelatedPerson Profile"/>
+      <description value="hl7.fhir.ae-RelatedPerson"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-hl7.fhir.ae-RelatedPerson-consentToContactReporter.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/hl7.fhir.ae-RelatedPerson-consentToContactReporter"/>
+      </reference>
+      <name value="AZ RelatedPerson Consent to Contact Extension"/>
+      <description value="hl7.fhir.ae-RelatedPerson-consentToContactReporter"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-hl7.fhir.ae-condition-outcome.html"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/hl7.fhir.ae-condition-outcome"/>
+      </reference>
+      <name value="Value set hl7.fhir.ae-condition-outcome"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-hl7.fhir.ae-condition-seriousness.html"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/hl7.fhir.ae-condition-seriousness"/>
+      </reference>
+      <name value="Value set hl7.fhir.ae-condition-seriousness"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -325,6 +759,42 @@
         <reference value="ValueSet/hl7.fhir.ae-detailed-ethnicity"/>
       </reference>
       <name value="Value set hl7.fhir.ae-detailed-ethnicity"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-hl7.fhir.ae-intelligent-source.html"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/hl7.fhir.ae-intelligent-source"/>
+      </reference>
+      <name value="Value set hl7.fhir.ae-intelligent-source"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-hl7.fhir.ae-resulting-condition.html"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/hl7.fhir.ae-resulting-condition"/>
+      </reference>
+      <name value="Value set hl7.fhir.ae-resulting-condition"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-hl7.fhir.ae-survey-status.html"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/hl7.fhir.ae-survey-status"/>
+      </reference>
+      <name value="Value set hl7.fhir.ae-survey-status"/>
     </resource>
     <page>
       <nameUrl value="toc.html"/>

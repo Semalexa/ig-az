@@ -11,7 +11,7 @@
   "title": "AstraZeneca Adverse Event Implementation Guide",
   "status": "active",
   "experimental": false,
-  "date": "2020-12-18T02:37:17-06:00",
+  "date": "2020-12-18T04:12:40-06:00",
   "publisher": "AstraZeneca - Adverse Event Work Group",
   "contact": [
     {
@@ -334,7 +334,280 @@
         "reference": {
           "reference": "StructureDefinition/hl7.fhir.ae-Address-region"
         },
+        "name": "AZ Address Region Extension",
         "description": "hl7.fhir.ae-Address-region"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-hl7.fhir.ae-AdverseEvent.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/hl7.fhir.ae-AdverseEvent"
+        },
+        "name": "AZ AdverseEvent Profile",
+        "description": "AZAdverseEvent"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-hl7.fhir.ae-AdverseEvent-AZEmployeeReporter.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/hl7.fhir.ae-AdverseEvent-AZEmployeeReporter"
+        },
+        "name": "AZ Employee Reporter Extension",
+        "description": "hl7.fhir.ae-AdverseEvent-AZEmployeeReporter"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-hl7.fhir.ae-AdverseEvent-lateReason.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/hl7.fhir.ae-AdverseEvent-lateReason"
+        },
+        "name": "AZ Late Reason Extension",
+        "description": "hl7.fhir.ae-AdverseEvent-lateReason"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-hl7.fhir.ae-AdverseEvent-localReference.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/hl7.fhir.ae-AdverseEvent-localReference"
+        },
+        "name": "AZ Local Ref No Extension",
+        "description": "hl7.fhir.ae-AdverseEvent-localReference"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-hl7.fhir.ae-AdverseEvent-positiveDechallenge.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/hl7.fhir.ae-AdverseEvent-positiveDechallenge"
+        },
+        "name": "AZ Positive Dechallenge Extension",
+        "description": "hl7.fhir.ae-AdverseEvent-positiveDechallenge"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-hl7.fhir.ae-AdverseEvent-positiveRechallenge.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/hl7.fhir.ae-AdverseEvent-positiveRechallenge"
+        },
+        "name": "AZ Positive Rechallenge Extension",
+        "description": "hl7.fhir.ae-AdverseEvent-positiveRechallenge"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-hl7.fhir.ae-AdverseEvent-programNumber.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/hl7.fhir.ae-AdverseEvent-programNumber"
+        },
+        "name": "AZ Program Number Extension",
+        "description": "hl7.fhir.ae-AdverseEvent-programNumber"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-hl7.fhir.ae-AdverseEvent-rechallenge.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/hl7.fhir.ae-AdverseEvent-rechallenge"
+        },
+        "name": "AZ Rechallenge Extension",
+        "description": "hl7.fhir.ae-AdverseEvent-rechallenge"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-hl7.fhir.ae-AdverseEvent-reporterType.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/hl7.fhir.ae-AdverseEvent-reporterType"
+        },
+        "name": "AZ Reporter Type Extension",
+        "description": "hl7.fhir.ae-AdverseEvent-reporterType"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-hl7.fhir.ae-AdverseEvent-sourceType.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/hl7.fhir.ae-AdverseEvent-sourceType"
+        },
+        "name": "AZ Source Type Extension",
+        "description": "hl7.fhir.ae-AdverseEvent-sourceType"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-hl7.fhir.ae-AdverseEvent-surveyStatus.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/hl7.fhir.ae-AdverseEvent-surveyStatus"
+        },
+        "name": "AZ Survey Status Extension",
+        "description": "hl7.fhir.ae-AdverseEvent-surveyStatus"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-hl7.fhir.ae-Condition.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/hl7.fhir.ae-Condition"
+        },
+        "name": "AZ Condition Profile",
+        "description": "hl7.fhir.ae-Condition"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-hl7.fhir.ae-Condition-duration.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/hl7.fhir.ae-Condition-duration"
+        },
+        "name": "AZ Condition Duration Extension",
+        "description": "hl7.fhir.ae-Condition-duration"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-hl7.fhir.ae-Condition-outcome.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/hl7.fhir.ae-Condition-outcome"
+        },
+        "name": "AZ Condition Outcome Extension",
+        "description": "hl7.fhir.ae-Condition-outcome"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-hl7.fhir.ae-Condition-resultingCondition.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/hl7.fhir.ae-Condition-resultingCondition"
+        },
+        "name": "AZ Resulting Condition Extension",
+        "description": "hl7.fhir.ae-Condition-resultingCondition"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-hl7.fhir.ae-Condition-seriousness.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/hl7.fhir.ae-Condition-seriousness"
+        },
+        "name": "AZ Condition Seriousness Extension",
+        "description": "hl7.fhir.ae-Condition-seriousness"
       },
       {
         "extension": [
@@ -367,7 +640,195 @@
         "reference": {
           "reference": "StructureDefinition/hl7.fhir.ae-HumanName-salutation"
         },
+        "name": "AZ Name salutation Extension",
         "description": "hl7.fhir.ae-HumanName-salutation"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-hl7.fhir.ae-MedicationAdministration.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/hl7.fhir.ae-MedicationAdministration"
+        },
+        "name": "AZ MedicationAdministration Profile",
+        "description": "hl7.fhir.ae-MedicationAdministration"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-hl7.fhir.ae-MedicationAdministration-actionTaken.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/hl7.fhir.ae-MedicationAdministration-actionTaken"
+        },
+        "name": "AZ MedicationAdministration Action Taken Extension",
+        "description": "hl7.fhir.ae-MedicationAdministration-actionTaken"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-hl7.fhir.ae-MedicationAdministration-frequency.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/hl7.fhir.ae-MedicationAdministration-frequency"
+        },
+        "name": "AZ MedicationAdministration Dosage Frequency Extension",
+        "description": "hl7.fhir.ae-MedicationAdministration-frequency"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-hl7.fhir.ae-MedicationAdministration-operatorDevice.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/hl7.fhir.ae-MedicationAdministration-operatorDevice"
+        },
+        "name": "AZ MedicationAdministration Operator Device Extension",
+        "description": "hl7.fhir.ae-MedicationAdministration-operatorDevice"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-hl7.fhir.ae-MedicationAdministration-operatorDeviceOther.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/hl7.fhir.ae-MedicationAdministration-operatorDeviceOther"
+        },
+        "name": "AZ MedicationAdministration Operator Device Other Extension",
+        "description": "hl7.fhir.ae-MedicationAdministration-operatorDeviceOther"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-hl7.fhir.ae-MedicationAdministration-productType.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/hl7.fhir.ae-MedicationAdministration-productType"
+        },
+        "name": "AZ MedicationAdministration Product Type Extension",
+        "description": "hl7.fhir.ae-MedicationAdministration-productType"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-hl7.fhir.ae-MedicationAdministration-unit.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/hl7.fhir.ae-MedicationAdministration-unit"
+        },
+        "name": "AZ MedicationAdministration Dosage Unit Extension",
+        "description": "hl7.fhir.ae-MedicationAdministration-unit"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-hl7.fhir.ae-Observation.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/hl7.fhir.ae-Observation"
+        },
+        "name": "AZ Observation Profile",
+        "description": "hl7.fhir.ae-Observation"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-hl7.fhir.ae-Observation-pregnancyDueDate.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/hl7.fhir.ae-Observation-pregnancyDueDate"
+        },
+        "name": "AZ Pregnancy Due Date Extension",
+        "description": "hl7.fhir.ae-Observation-pregnancyDueDate"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-hl7.fhir.ae-Observation-pregnancyFlag.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/hl7.fhir.ae-Observation-pregnancyFlag"
+        },
+        "name": "AZ Pregnancy Extension",
+        "description": "hl7.fhir.ae-Observation-pregnancyFlag"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-hl7.fhir.ae-Observation-previousPregnanciesDetails.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/hl7.fhir.ae-Observation-previousPregnanciesDetails"
+        },
+        "name": "AZ Details of previous pregnancies Extension",
+        "description": "hl7.fhir.ae-Observation-previousPregnanciesDetails"
       },
       {
         "extension": [
@@ -400,6 +861,7 @@
         "reference": {
           "reference": "StructureDefinition/hl7.fhir.ae-Patient-ageGroup"
         },
+        "name": "AZ Patient Age Group Extension",
         "description": "hl7.fhir.ae-Patient-ageGroup"
       },
       {
@@ -416,6 +878,7 @@
         "reference": {
           "reference": "StructureDefinition/hl7.fhir.ae-Patient-consentToContactPatient"
         },
+        "name": "AZ Patient Consent to Contact Extension",
         "description": "hl7.fhir.ae-Patient-consentToContactPatient"
       },
       {
@@ -432,6 +895,7 @@
         "reference": {
           "reference": "StructureDefinition/hl7.fhir.ae-Patient-ethnicity"
         },
+        "name": "AZ Patient Ethnicity Extension",
         "description": "hl7.fhir.ae-Patient-ethnicity"
       },
       {
@@ -448,6 +912,7 @@
         "reference": {
           "reference": "StructureDefinition/hl7.fhir.ae-Patient-gender"
         },
+        "name": "AZ Patient Gender Extension",
         "description": "hl7.fhir.ae-Patient-gender"
       },
       {
@@ -464,7 +929,108 @@
         "reference": {
           "reference": "StructureDefinition/hl7.fhir.ae-Patient-patientAge"
         },
+        "name": "AZ Patient Age Extension",
         "description": "hl7.fhir.ae-Patient-patientAge"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-hl7.fhir.ae-Practitioner.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/hl7.fhir.ae-Practitioner"
+        },
+        "name": "AZ Practitioner Profile",
+        "description": "hl7.fhir.ae-Practitioner"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-hl7.fhir.ae-Practitioner-consentToContactPractitioner.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/hl7.fhir.ae-Practitioner-consentToContactPractitioner"
+        },
+        "name": "AZ Practitioner Consent to Contact Extension",
+        "description": "hl7.fhir.ae-Practitioner-consentToContactPractitioner"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-hl7.fhir.ae-RelatedPerson.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/hl7.fhir.ae-RelatedPerson"
+        },
+        "name": "AZ RelatedPerson Profile",
+        "description": "hl7.fhir.ae-RelatedPerson"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-hl7.fhir.ae-RelatedPerson-consentToContactReporter.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/hl7.fhir.ae-RelatedPerson-consentToContactReporter"
+        },
+        "name": "AZ RelatedPerson Consent to Contact Extension",
+        "description": "hl7.fhir.ae-RelatedPerson-consentToContactReporter"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-hl7.fhir.ae-condition-outcome.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/hl7.fhir.ae-condition-outcome"
+        },
+        "name": "Value set hl7.fhir.ae-condition-outcome"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-hl7.fhir.ae-condition-seriousness.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/hl7.fhir.ae-condition-seriousness"
+        },
+        "name": "Value set hl7.fhir.ae-condition-seriousness"
       },
       {
         "extension": [
@@ -481,6 +1047,54 @@
           "reference": "ValueSet/hl7.fhir.ae-detailed-ethnicity"
         },
         "name": "Value set hl7.fhir.ae-detailed-ethnicity"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-hl7.fhir.ae-intelligent-source.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/hl7.fhir.ae-intelligent-source"
+        },
+        "name": "Value set hl7.fhir.ae-intelligent-source"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-hl7.fhir.ae-resulting-condition.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/hl7.fhir.ae-resulting-condition"
+        },
+        "name": "Value set hl7.fhir.ae-resulting-condition"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-hl7.fhir.ae-survey-status.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/hl7.fhir.ae-survey-status"
+        },
+        "name": "Value set hl7.fhir.ae-survey-status"
       }
     ],
     "page": {

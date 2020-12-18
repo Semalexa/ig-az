@@ -15,8 +15,10 @@
   fhir:StructureDefinition.url [ fhir:value "https://semalexa.github.io/ig-az/StructureDefinition/hl7.fhir.ae-Patient-consentToContactPatient"];
   fhir:StructureDefinition.version [ fhir:value "0.1.0"];
   fhir:StructureDefinition.name [ fhir:value "consentToContactPatient"];
+  fhir:StructureDefinition.title [ fhir:value "AZ Patient Consent to Contact Extension"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2020-12-18T02:37:17-06:00"^^xsd:dateTime];
+  fhir:StructureDefinition.experimental [ fhir:value "false"^^xsd:boolean];
+  fhir:StructureDefinition.date [ fhir:value "2020-12-18"^^xsd:date];
   fhir:StructureDefinition.publisher [ fhir:value "AstraZeneca - Adverse Event Work Group"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
